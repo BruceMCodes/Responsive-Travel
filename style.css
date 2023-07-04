@@ -1,0 +1,92 @@
+/* 
+    Name: Bruce Marshall
+    Assignment: Responsive Travel
+    Filename: style.css
+    Date: 7/3/2023
+*/
+html {
+    background-color: #344C11;
+    color: #1A2902;
+    font-family: cursive;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+header {
+    background-color:#AEC09A;
+    padding: 10px;
+    border: 2px solid black;
+}
+#nav {
+    background-color: #AEC670;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+}
+#home {
+    text-decoration: none;
+    color: #1A2902;
+}
+#home:hover {
+    color: white;
+}
+.container {
+    background-color:#AEC09A;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+img {
+    float: right;
+    width: 150px;
+    padding: 10px;
+}
+footer {
+    background-color:#AEC09A;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    text-align: center;
+    border: 2px solid black;
+}
+
+@media screen and (min-width: 550px) {
+    img {
+        float: left;
+        width: 250px;
+        padding: 15px;
+    }
+    #nav {
+        width: 26%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    img {
+        float: right;
+        width: 325px;
+        padding: 20px;
+    }
+    #nav {
+        width: 20%;
+    }
+    .container {
+        padding-bottom: 30px;
+    }
+    p {
+        font-size: large;
+        padding: 10px;
+    }
+}
